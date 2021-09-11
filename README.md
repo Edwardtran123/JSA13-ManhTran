@@ -21,3 +21,12 @@ git add .
 ## Xac nhan su thay doi cho git
 ```
 git commit -m "Create Lesson01"
+```
+
+## Trinh tu day code len github
+
+```
+git add .
+git commit -m "Update README.md"
+git push
+```
