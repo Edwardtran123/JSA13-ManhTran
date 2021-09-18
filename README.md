@@ -1,31 +1,9 @@
 ## JSA13 - ManhTran
 
-## Khoi tao git
-```
-git init
-```
+## git config --global user.name "Tran Duc Manh"
 
-## Xac dinh danh tinh
-```
-git config --global user.name "Edwardtran123"
-git config --global user.email "manhjom@gmail.com"
-```
+## git config --global user.birthday "08/10/2007"
 
-## Them file vao change cua git
-```
-git add <Ten file>
+## git config --global user.school "Nguyen Van Linh"
 
-git add .
-```
-
-## Xac nhan su thay doi cho git
-```
-git commit -m "Create Lesson01"
-```
-
-## Trinh tu day code len github
-
-```
-git add .
-git commit -m "Update README.md"
-git push
+## git config --global user.hobbies "Reading novels, Coding and Playing sport"
