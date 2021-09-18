@@ -7,3 +7,5 @@
 ## git config --global user.school "Nguyen Van Linh"
 
 ## git config --global user.hobbies "Reading novels, Coding and Playing sport"
+
+## git config --global user.city "Da Nang city"
