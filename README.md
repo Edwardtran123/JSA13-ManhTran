@@ -1,11 +1,16 @@
 ## JSA13 - ManhTran
 
-## git config --global user.name "Tran Duc Manh"
-
-## git config --global user.birthday "08/10/2007"
-
-## git config --global user.school "Nguyen Van Linh"
-
-## git config --global user.hobbies "Reading novels, Coding and Playing sport"
-
-## git config --global user.city "Da Nang city"
+## Name
+Tran Duc Manh
+```
+## Birthday
+08/10/2007
+```
+## School 
+Nguyen Van Linh
+```
+## Hobbies 
+Reading novels, Coding and Playing sport
+```
+## City 
+Da Nang city
