@@ -1,0 +1,597 @@
+*{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    
+}
+
+@media screen and (max-width: 800px){
+    .main-container, .main-content, .header-container, .header-content {
+        width: 100%;
+    }
+}
+
+.header-container{
+    width: 100%;
+    height: 700px;
+    background: url(../images/hero.jpg);
+    background-size: cover;
+}
+
+.header-content{
+    padding: 100px;
+}
+
+.header-background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.7;
+}
+
+.header-menu{
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+}
+
+.header-logo,.header-logo>img{
+    height: 100%;
+    top: -35px;
+}
+
+.header-items{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: -80px;
+}
+
+.header-items>li>a{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.header-items>li:hover>a{
+    color: yellow;
+    text-decoration: underline;
+}
+
+.welcome-button>button{
+    border-radius: 20px;
+    background-color: transparent;
+    width: 200px;
+    height: 40px;
+    margin-right: 10px;
+    color: rgb(216, 115, 0);
+    font-size: 15px;
+    border: rgb(216, 115, 0) 1px solid;
+}
+
+.welcome-button>button:hover{
+    color: white;
+    background-color: rgba(216, 115, 0, 0.918);
+}
+
+.header-welcome{
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 10px;
+    justify-content: space-around;
+}
+
+.main-container{
+    max-width: 100%;
+    height: 5000px;
+    background: cover;
+}
+
+.main-h{
+    text-align: center;
+    justify-content: space-around;
+    font-size: 1.3vw;
+    margin-top: 50px;
+}
+
+.main-h>hr{
+    width: 80px;
+    margin-left: 900px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 1;
+    border-color: rgb(216, 115, 0);
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-p{
+    display: flex;
+    width: 800px;
+    margin-left: 550px;
+    justify-content: space-around;
+    font-size: 1.1vw;
+}
+
+.main-second{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-bottom: 70px;
+    font-size: 1.1vw;
+}
+
+.main-second>div>p{
+    margin-bottom: 10px;
+}
+
+.one{
+    margin-top: 50px;
+    margin-right: 10px;
+    width: 300px;
+}
+
+.two{
+    margin-top: 50px;
+    margin-right: 10px;
+    width: 310px;
+    top: -5px;
+}
+
+.three{
+    margin-top: 50px;
+    margin-right: 10px;
+    width: 300px;
+    top: -4px;
+}
+
+.four{
+    margin-top: 50px;
+    margin-right: 10px;
+    width: 300px;
+    top: -4px;
+}
+
+.main-images>img{
+    width: 472.76px;
+    height: 300px;
+}
+
+.main-third>hr{
+    width: 80px;
+    margin-left: 900px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 1;
+    border-color: rgb(216, 115, 0);
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-third>#on{
+    text-align: center;
+    font-size: 2.3vw;
+}
+
+.part-one>img{
+    width: 25%;
+    height: 85%;
+    margin-left: 560px;
+}
+
+.third-simple{
+    display: flex;
+    margin-top: 50px;
+}
+
+.st{
+    margin-top: 100px;
+    left: -200px;
+    display: flex;
+    width: 380px;
+    height: 100px;
+}
+
+.nd{
+    left: -200px;
+    display: flex;
+    width: 390px;
+    height: 100px;
+}
+
+.rd{
+    left: -200px;
+    display: flex;
+    width: 400px;
+    height: 100px;
+}
+
+.st>h1{
+    color: rgb(216, 115, 0);
+    border: rgb(216, 115, 0) solid 1px;
+    border-radius: 50%;
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.nd>h1{
+    color: rgb(216, 115, 0);
+    border: rgb(216, 115, 0) solid 1px;
+    border-radius: 50%;
+    width: 70px;
+    height: 40px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.rd>h1{
+    color: rgb(216, 115, 0);
+    border: rgb(216, 115, 0) solid 1px;
+    border-radius: 50%;
+    width: 55px;
+    height: 40px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.main-third{
+    background-color: rgb(246, 245, 245);
+}
+
+#on{
+    margin-top: 50px;
+}
+
+.main-download{
+    justify-content: space-around;
+    left: -200px;
+}
+
+.main-download>#CHplay{
+    width: 140px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.main-local>hr{
+    width: 80px;
+    margin-left: 900px;
+    margin-top: 200px;
+    margin-bottom: 25px;
+    border: 1;
+    border-color: rgb(216, 115, 0);
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-head{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.3vw;
+}
+
+.main-head>hr{
+    width: 80px;
+    margin-left: 900px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 1;
+    border-color: rgb(216, 115, 0);
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-cities{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.main-cities>div>img{
+    width: 420px; 
+    height: 280px;
+}
+
+.main-cities>div>div{
+    display: flex;
+}
+
+.main-cities>div>div>i{
+    margin-right: 10px; 
+    color: rgb(216, 115, 0);
+}
+
+.main-cities>div>p{
+    font-size: 1.1vw; 
+    margin: 10px 0px 10px 0px;
+}
+
+.main-cities>div>div>p{
+    font-size: 1.1 vw;
+}
+
+.main-cities>div>.DP>p{
+    color: rgb(216, 115, 0);
+    font-size: 1.1vw;
+}
+
+.main-customers{
+    margin-top: 200px; 
+    text-align: center;
+}
+
+.main-customers>img{
+    border-radius: 50%;
+}
+
+.main-customers>.DI{
+    margin-right: 300px;
+}
+
+.fees{
+    background-color: rgb(246, 245, 245);
+    margin-top: 200px;
+    height: 800px;
+}
+
+.fees-head{
+    text-align: center;
+    font-size: 1.3vw;
+    top: 50px;
+}
+
+.fees-head>hr{
+    width: 80px;
+    margin-left: 900px;
+    margin-top: 25px;
+    margin-bottom: 200px;
+    border: 1;
+    border-color: rgb(216, 115, 0);
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-fees{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.main-fees>div{
+    font-size: 1.3vw;
+}
+
+.main-fees>div>p{
+    margin-left: 30px;
+}
+
+.D1{
+    display: flex; 
+    margin: 20px 0px 10px 30px; 
+    color: rgb(216, 115, 0);
+}
+
+.D1>p{
+    font-size: 2.3vw;
+}
+
+.D1>p1{
+    font-size: 1.1vw; 
+    margin-top: 20px;
+}
+
+.DA{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.D2{
+    display: flex; 
+    margin: 38px 0px 10px 30px; 
+    color: rgb(216, 115, 0);
+}
+
+.D2>p{
+    font-size: 2.3vw; 
+    top: -20px;
+}
+
+.D2>p1{
+    font-size: 1.1vw; 
+    margin-top: 20px; 
+    top: -20px;
+}
+
+.DB{
+    margin-top: 39.5px;
+    margin-bottom: 39.5px;
+}
+
+.main-fees>div{
+    border: 1px white solid;
+    background-color: white;
+    width: 330px;
+    height: 330px;
+    padding: 10px 0px 30px 0px;
+}
+
+.main-fees>div>div{
+    margin-left: 50px;
+}
+
+.main-fees>div>button{
+    font-size: 1.1vw; 
+    text-align: center; 
+    border-radius: 20px; 
+    width: 180px; 
+    height: 40px;
+    margin-left: 70px;
+    margin-top: 10px;
+    color: rgb(216, 115, 0);
+    background-color: transparent;
+    border: rgb(216, 115, 0) solid 1px;
+}
+
+.main-fees>div>button:hover{
+    color: white;
+    background-color: rgb(216, 115, 0);
+}
+
+.form-head{
+    margin-left: 800px;
+    font-size: 1.3vw;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.form-head>hr{
+    width: 80px;
+    margin-left: 400px;
+    margin-top: 25px;
+    border: 1;
+    border-color: rgb(216, 115, 0);
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-form{
+    margin-left: 1000px;
+    font-size: 1.3vw;
+}
+
+.main-form>div{
+    display: flex;
+    margin-top: 30px;
+}
+
+.main-form>div>p{
+    margin-right: 216px;
+}
+
+.main-form>div>input{
+    font-size: 1.5vw; 
+    width: 545px;
+}
+
+.DF1{
+    display: flex;
+}
+
+.DF1>p{
+    margin-right: 60px;
+}
+
+.DF1>select{
+    width: 545px; 
+    font-size: 1.4vw;
+}
+
+.DF2{
+    display: flex;
+}
+
+.DF2>div{
+    display: flex;
+}
+
+.DF2>div>input{
+    margin: 10px 5px 0px 157px; 
+    font-size: 1.4vw;
+}
+
+.DF2>div>p{
+    font-size: 1.4vw;
+}
+
+.DF3{
+    display: flex;
+}
+
+.DF3>p{
+    margin-right: 135px;
+}
+
+.DF3>input{
+    height: 60px; 
+    width: 545px; 
+    font-size: 1.5vw;
+}
+
+.main-form>button{
+    font-size: 1.1vw;  
+    border-radius: 30px; 
+    width: 200px; 
+    height: 50px;
+    margin-left: 276px;
+    margin-top: 50px;
+    color: rgb(216, 115, 0);
+    background-color: transparent;
+    border: rgb(216, 115, 0) solid 1px;
+}
+
+.main-form>button:hover{
+    color: white;
+    background-color: rgb(216, 115, 0);
+}
+
+.footer-content{
+    background-color: rgb(68, 68, 68); 
+    height: 300px;
+}
+
+.footer-content>.footer-zero{
+    display: flex;
+}
+
+.footer-one{
+    display: flex; 
+    width: 500px; 
+    justify-content: space-around; 
+    font-size: 1.3vw; 
+    margin-left: 225px; 
+    margin-top: 50px; 
+}
+
+.footer-one>a{
+    text-decoration: none;
+    color: gray;
+}
+
+.footer-two{
+    margin-left: 825px;  
+    margin-top: 50px; 
+    font-size: 1.3vw; 
+    margin-right: 100px;
+}
+
+.footer-two>a{
+    text-decoration: none;
+    color: gray;
+}
+
+.footer-three{
+    text-align: center; 
+    font-size: 1.3vw; 
+    margin-top: 50px; 
+    color: gray;
+}
+
+.footer-three>div{
+    display: flex;
+    margin: 20px 0px 100px 600px; 
+    font-size: 1.3vw; 
+    color: gray;
+}
+
+.footer-three>div>i{
+    color: red; margin: 0px 3px 0px 3px;
+}
+
+
